@@ -4,7 +4,7 @@ int main(){
     char str1[100];
     char str2[100];
     scanf("%99s, %99s", &str1, &str2);
-    printf("You entered: %s", str1);
-    printf("You entered: %s", str2);
+    printf("You entered: %s and", str1);
+    printf("%s", str2);
     return 0;
 }
