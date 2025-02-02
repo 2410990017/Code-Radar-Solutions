@@ -5,10 +5,10 @@ int main(){
     char op;
     scanf("%c", &op);
     if(op== '+'){
-        printf("%d", a+b);
+        printf("%d+%d", a+b);
     }
     else if(op== '-'){
-        printf("%d", a-b);
+        printf("%d-%d", a-b);
     }
     else if(op== '*'){
         printf("%d", a*b);
