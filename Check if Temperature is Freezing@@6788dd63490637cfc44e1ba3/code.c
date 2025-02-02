@@ -7,7 +7,7 @@ int main(){
         printf("Freezing");
     }
     else if(t>0){
-        printf("Above Feeezing");
+        printf("Above Freezing");
     }
     return 0;
 }
