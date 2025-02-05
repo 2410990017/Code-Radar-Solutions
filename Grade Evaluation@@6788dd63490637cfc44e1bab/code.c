@@ -3,7 +3,8 @@
 int main(){
     char grade;
     scanf("%d", &grade);
-    switch(grade){
+    switch(grade):
+    {
         case 'A':
             printf("Excellent");
             break;
@@ -20,7 +21,7 @@ int main(){
             printf("Fail");
             break;
         default:
-            printf("Invalid Grade");
+            printf("Invalid grade");
     }
     return 0;
 }
