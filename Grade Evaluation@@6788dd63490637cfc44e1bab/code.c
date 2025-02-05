@@ -2,8 +2,8 @@
 
 int main(){
     char grade;
-    scanf("%d", &grade);
-    switch(grade):
+    scanf("%c", &grade);
+    switch(grade)
     {
         case 'A':
             printf("Excellent");
