@@ -11,7 +11,6 @@ int main(){
     if(n<=0){
         printf("Invalid input");
     }
-    int series=fseries(n,a,b,next);
-    printf("%d", series);
+    fseries(n,a,b,next);
     return 0;
 }
