@@ -1,5 +1,5 @@
 #include<stdio.h>
-void fseries(int n){
+void fseries(int n,int a){
     printf("%d ", a);
     int next=int a+ int b;
     int a=int b;
@@ -11,6 +11,6 @@ int main(){
     if(n<=0){
         printf("Invalid input");
     }
-    fseries(n);
+    fseries(n,a);
     return 0;
 }
